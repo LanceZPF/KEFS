@@ -22,7 +22,7 @@ The following scripts are for different steps in the pipeline on PASCAL VOC data
        
  ### 3. Train synthesizer
       # modify the paths to extracted features, labels and model checkpoints.
-      python trainer.py
+      ./script/train_gcn_synthesizer.sh
       
  ### 4. Test 
  
